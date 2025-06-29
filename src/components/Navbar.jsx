@@ -2,7 +2,7 @@ import React, { useState } from "react";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navLinks = [
-    { label: "Home", href: "#home", from: "blue-400", to: "blue-500" },
+    { label: "Home", href: "#home", from: "blue-400", to: "teal-500" },
     { label: "About", href: "#about", from: "green-400", to: "teal-500" },
     { label: "Projects", href: "#project", from: "green-400", to: "purple-500" },
     { label: "Contact", href: "#contact", from: "green-400", to: "red-500" },
